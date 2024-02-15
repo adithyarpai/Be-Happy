@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Be-Happy/static/js/main.c37be49f.js",
+    "main.js": "/Be-Happy/static/js/main.a0b3728a.js",
     "index.html": "/Be-Happy/index.html",
-    "main.c37be49f.js.map": "/Be-Happy/static/js/main.c37be49f.js.map"
+    "main.a0b3728a.js.map": "/Be-Happy/static/js/main.a0b3728a.js.map"
   },
   "entrypoints": [
-    "static/js/main.c37be49f.js"
+    "static/js/main.a0b3728a.js"
   ]
 }
