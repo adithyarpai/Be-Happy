@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/github.io/Be-happy/static/js/main.c37be49f.js",
-    "index.html": "/github.io/Be-happy/index.html",
-    "main.c37be49f.js.map": "/github.io/Be-happy/static/js/main.c37be49f.js.map"
+    "main.js": "/Be-Happy/static/js/main.c37be49f.js",
+    "index.html": "/Be-Happy/index.html",
+    "main.c37be49f.js.map": "/Be-Happy/static/js/main.c37be49f.js.map"
   },
   "entrypoints": [
     "static/js/main.c37be49f.js"
