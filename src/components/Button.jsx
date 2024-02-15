@@ -30,7 +30,7 @@ const noOptions = [{
     title: "Trust me this my last try"
 }, {
     key: 10,
-    title: "Fuck you. I've disabled it. Just press yes."
+    title: "I swear I will disabled this if you dont press yes."
 }]
 
 function Button(){
@@ -77,7 +77,7 @@ function Button(){
             setYesButtonSize((prevSize) => prevSize + 15);
             setCurrentIndex(currentIndex + 1);
         } else {
-            // If last item is reached, disable the button
+            setNoButtonText("Fuck you. Just press yes now.")
             setIsNoFinal(true);
         }
     }
