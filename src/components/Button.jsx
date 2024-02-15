@@ -15,27 +15,27 @@ const noOptions = [{
     title: "But I like seeing you happy (and with me????)"
 }, {
     key: 5,
-    title: "You know I could have programmed it to be an infinite loop. How long will you say no?"
+    title: "You know I could have programmed it to have infinite options. How long will you say no?"
 }, {
     key: 6,
     title: "Okay maybe I was lying there.."
 }, {
     key: 7,
-    title: "Come on, I'm trying so hard"
+    title: "Bruh, why you doing this. It's not gonna hurt you"
 }, {
     key: 8,
     title: "You know it's not easy to come up with this"
 }, {
     key: 9,
-    title: "Trust me this my last try"
+    title: "Just do it na"
 }, {
     key: 10,
-    title: "I swear I will disabled this if you dont press yes."
+    title: "I swear I will disable this if you dont press yes."
 }]
 
 function Button(){
 
-    const [headingText, setHeadingText] = useState('Can you plis smile?')
+    const [headingText, setHeadingText] = useState('Can you plis talk?')
     const [noButtonText, setNoButtonText] = useState('No');
     const [yesButtonText, setYesButtonText] = useState('Yes');
     const [isNoFinal, setIsNoFinal] = useState(false);
@@ -84,7 +84,7 @@ function Button(){
 
     function handleYesClick() {
         setHeadingText(`See. That wasn't so hard was it?`)
-        setYesButtonText('Now talk to me bitch')
+        setYesButtonText('Now be nice to me bitch')
         setCatImage('./Images/happy-cat-happy-happy-cat.gif')
         setIsNoFinal(true);
         setConfettiActive(true);

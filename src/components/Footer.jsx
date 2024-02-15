@@ -4,7 +4,7 @@ const React = require("react")
 function Footer() {
     return ( 
     <footer>
-        <p>Peachy always</p>
+            <p>🍑</p>
     </footer>
     );
 }
